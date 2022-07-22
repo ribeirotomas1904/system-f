@@ -1,2 +1,7 @@
 (library
  (name lambda_core))
+
+(ocamllex lexer)
+
+(menhir
+ (modules parser))

@@ -4,7 +4,8 @@
   },
   "dependencies": {
     "ocaml": "4.14.x",
-    "@opam/dune": "*"
+    "@opam/dune": "*",
+    "@opam/menhir": "*"
   },
   "devDependencies": {
     "@opam/ocaml-lsp-server": "*",
